@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(68, 68, 74);
+    color: white;
+}
+#cal{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 37, 41);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(123, 123, 140);
+    color: white;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(95, 89, 100);
+}
+button:active{
+    background-color: rgb(149, 147, 151);
+}
+.operator-btn{
+    background-color: rgb(213, 156, 49);
+}
+.operator-btn:hover{
+    background-color: rgb(249, 199, 105);
+}
+.operator-btn:active{
+    background-color: rgb(243, 201, 122);
+}
